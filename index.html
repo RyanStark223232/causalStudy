@@ -13281,7 +13281,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13301,7 +13301,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;Birth_US_2022.csv&quot;</span><span class="p">)</span>
@@ -13318,7 +13318,7 @@ if (outputEl) {{
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[39]:</div>
 
 
 
@@ -13365,7 +13365,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">try</span><span class="p">:</span>
@@ -13429,7 +13429,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_true_sample</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Infant_Living&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="mi">8000</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -13448,7 +13448,7 @@ if (outputEl) {{
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[41]:</div>
 
 
 
@@ -13490,10 +13490,28 @@ if (outputEl) {{
   </thead>
   <tbody>
     <tr>
-      <th>3330954</th>
+      <th>687465</th>
+      <td>Y</td>
+      <td>Y</td>
+      <td>3005.0</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>7.0</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>529389</th>
       <td>Y</td>
       <td>N</td>
-      <td>3630.0</td>
+      <td>3680.0</td>
       <td>N</td>
       <td>N</td>
       <td>N</td>
@@ -13508,10 +13526,10 @@ if (outputEl) {{
       <td>N</td>
     </tr>
     <tr>
-      <th>2050659</th>
+      <th>190982</th>
       <td>Y</td>
       <td>N</td>
-      <td>3835.0</td>
+      <td>3755.0</td>
       <td>N</td>
       <td>N</td>
       <td>N</td>
@@ -13526,10 +13544,10 @@ if (outputEl) {{
       <td>N</td>
     </tr>
     <tr>
-      <th>1802149</th>
+      <th>2732464</th>
       <td>Y</td>
-      <td>N</td>
-      <td>2925.0</td>
+      <td>Y</td>
+      <td>1715.0</td>
       <td>N</td>
       <td>N</td>
       <td>N</td>
@@ -13544,28 +13562,10 @@ if (outputEl) {{
       <td>N</td>
     </tr>
     <tr>
-      <th>299168</th>
+      <th>3316764</th>
       <td>Y</td>
-      <td>N</td>
-      <td>2865.0</td>
-      <td>N</td>
-      <td>N</td>
-      <td>N</td>
-      <td>N</td>
-      <td>N</td>
-      <td>9.0</td>
-      <td>N</td>
-      <td>N</td>
-      <td>N</td>
-      <td>N</td>
-      <td>N</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <th>1615386</th>
       <td>Y</td>
-      <td>N</td>
-      <td>2254.0</td>
+      <td>3800.0</td>
       <td>N</td>
       <td>N</td>
       <td>N</td>
@@ -13599,7 +13599,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">orig_len</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -13619,7 +13619,7 @@ if (outputEl) {{
     <span class="s2">&quot;Meningomyelocele&quot;</span><span class="p">,</span>
     <span class="s2">&quot;Anencephaly&quot;</span>
 <span class="p">]</span>
-<span class="n">mapping</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;N&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s1">&#39;Y&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;U&#39;</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">NA</span><span class="p">,</span> <span class="s2">&quot;C&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;P&quot;</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">NA</span><span class="p">}</span>
+<span class="n">mapping</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;N&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;Y&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;U&#39;</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">NA</span><span class="p">,</span> <span class="s2">&quot;C&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;P&quot;</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">NA</span><span class="p">}</span>
 <span class="n">df</span><span class="p">[</span><span class="n">BOOL_COLS</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">BOOL_COLS</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">mapping</span><span class="p">)</span>
 <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 
@@ -13646,7 +13646,7 @@ if (outputEl) {{
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Non-Null Ratio:  0.901625
+<pre>Non-Null Ratio:  0.902
 </pre>
 </div>
 </div>
@@ -13664,10 +13664,10 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Birth_Weight (kg)&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Birth_Weight (g)&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="o">/</span><span class="mi">1000</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Birth_Weight_kg&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Birth_Weight (g)&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="o">/</span><span class="mi">1000</span><span class="p">)</span>
 <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Birth_Weight (g)&#39;</span><span class="p">],</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
@@ -13682,7 +13682,7 @@ if (outputEl) {{
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[43]:</div>
 
 
 
@@ -13719,30 +13719,30 @@ if (outputEl) {{
       <th>Congenital_Diaphragmatic_Hernia</th>
       <th>Meningomyelocele</th>
       <th>Anencephaly</th>
-      <th>Birth_Weight (kg)</th>
+      <th>Birth_Weight_kg</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>3330954</th>
+      <th>687465</th>
+      <td>True</td>
       <td>True</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>False</td>
-      <td>9.0</td>
-      <td>False</td>
+      <td>7.0</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>3.630</td>
+      <td>False</td>
+      <td>3.005</td>
     </tr>
     <tr>
-      <th>2050659</th>
+      <th>529389</th>
       <td>True</td>
       <td>False</td>
       <td>False</td>
@@ -13757,10 +13757,10 @@ if (outputEl) {{
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>3.835</td>
+      <td>3.680</td>
     </tr>
     <tr>
-      <th>1802149</th>
+      <th>190982</th>
       <td>True</td>
       <td>False</td>
       <td>False</td>
@@ -13775,12 +13775,12 @@ if (outputEl) {{
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>2.925</td>
+      <td>3.755</td>
     </tr>
     <tr>
-      <th>299168</th>
+      <th>2732464</th>
       <td>True</td>
-      <td>False</td>
+      <td>True</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
@@ -13793,12 +13793,12 @@ if (outputEl) {{
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>2.865</td>
+      <td>1.715</td>
     </tr>
     <tr>
-      <th>1615386</th>
+      <th>3316764</th>
       <td>True</td>
-      <td>False</td>
+      <td>True</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
@@ -13811,7 +13811,7 @@ if (outputEl) {{
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>2.254</td>
+      <td>3.800</td>
     </tr>
     <tr>
       <th>...</th>
@@ -13832,7 +13832,61 @@ if (outputEl) {{
       <td>...</td>
     </tr>
     <tr>
-      <th>1372627</th>
+      <th>3524902</th>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2.0</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>0.750</td>
+    </tr>
+    <tr>
+      <th>3121089</th>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2.0</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>0.440</td>
+    </tr>
+    <tr>
+      <th>720539</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2.0</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>0.560</td>
+    </tr>
+    <tr>
+      <th>2414664</th>
       <td>False</td>
       <td>False</td>
       <td>False</td>
@@ -13847,10 +13901,10 @@ if (outputEl) {{
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>0.286</td>
+      <td>0.250</td>
     </tr>
     <tr>
-      <th>1115061</th>
+      <th>3475836</th>
       <td>False</td>
       <td>True</td>
       <td>False</td>
@@ -13858,72 +13912,18 @@ if (outputEl) {{
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>5.0</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>2.335</td>
-    </tr>
-    <tr>
-      <th>1143164</th>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>6.0</td>
+      <td>4.0</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>3.545</td>
-    </tr>
-    <tr>
-      <th>3262457</th>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>1.0</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>0.370</td>
-    </tr>
-    <tr>
-      <th>918732</th>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>5.0</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>2.450</td>
+      <td>2.545</td>
     </tr>
   </tbody>
 </table>
-<p>14426 rows × 15 columns</p>
+<p>14432 rows × 15 columns</p>
 </div>
 </div>
 
@@ -14008,7 +14008,7 @@ if (outputEl) {{
 
 
 <div class="output_png output_subarea ">
-<img src="Causal_Birth2022_files/Causal_Birth2022_17_0.png"
+<img src="output_17_0.png"
 >
 </div>
 
@@ -14252,10 +14252,10 @@ Mean value: -0.39075432372614205
 
  
  
-<div id="39d52c86-b336-4f35-9b3d-74050583bebd"></div>
+<div id="b73cb85f-a4ea-401c-8d59-b337e687cbe8"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#39d52c86-b336-4f35-9b3d-74050583bebd');
+var element = $('#b73cb85f-a4ea-401c-8d59-b337e687cbe8');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "dc37486a62a049579553b0de70304b66", "version_major": 2, "version_minor": 0}
@@ -14379,6 +14379,346 @@ if (outputEl) {{
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="EXTRA-auto-graph-generation">EXTRA auto graph generation<a class="anchor-link" href="#EXTRA-auto-graph-generation">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">causalnex.structure</span> <span class="kn">import</span> <span class="n">StructureModel</span>
+<span class="kn">from</span> <span class="nn">causalnex.structure.notears</span> <span class="kn">import</span> <span class="n">from_pandas</span>
+
+<span class="n">sm</span> <span class="o">=</span> <span class="n">from_pandas</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="n">nx</span><span class="o">.</span><span class="n">set_edge_attributes</span><span class="p">(</span><span class="n">sm</span><span class="p">,</span> <span class="s2">&quot;learned&quot;</span><span class="p">,</span> <span class="s2">&quot;origin&quot;</span><span class="p">)</span>  <span class="c1"># tag origin if not already set</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">itertools</span>
+
+<span class="k">def</span> <span class="nf">peek</span><span class="p">(</span><span class="n">iterable</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">first</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">iterable</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">StopIteration</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">return</span> <span class="n">first</span><span class="p">,</span> <span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">([</span><span class="n">first</span><span class="p">],</span> <span class="n">iterable</span><span class="p">)</span>
+
+<span class="n">peek</span><span class="p">(</span><span class="n">nx</span><span class="o">.</span><span class="n">simple_cycles</span><span class="p">(</span><span class="n">graph</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+<span class="c1"># Define your threshold — adjust based on your data</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">(</span><span class="n">sm</span><span class="o">.</span><span class="n">edges</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>  <span class="c1"># preserves edge weights</span>
+
+<span class="c1"># Step 1: Remove outgoing edges from outcome</span>
+<span class="n">outcome_var</span> <span class="o">=</span> <span class="s2">&quot;Infant_Living&quot;</span>
+<span class="k">for</span> <span class="n">u</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edges</span><span class="p">())):</span>
+    <span class="k">if</span> <span class="n">u</span> <span class="o">==</span> <span class="n">outcome_var</span><span class="p">:</span>
+        <span class="n">graph</span><span class="o">.</span><span class="n">remove_edge</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+
+<span class="c1"># Step 2: Remove weak edges in cycles until the graph is acyclic</span>
+<span class="k">while</span> <span class="n">peek</span><span class="p">(</span><span class="n">nx</span><span class="o">.</span><span class="n">simple_cycles</span><span class="p">(</span><span class="n">graph</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">cycle</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">simple_cycles</span><span class="p">(</span><span class="n">graph</span><span class="p">):</span>
+        <span class="c1"># For each cycle, find the weakest edge and remove it</span>
+        <span class="n">weakest_edge</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span>
+            <span class="p">[(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">graph</span><span class="p">[</span><span class="n">u</span><span class="p">][</span><span class="n">v</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;weight&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span> <span class="k">for</span> <span class="n">u</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">cycle</span><span class="p">,</span> <span class="n">cycle</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="o">+</span> <span class="p">[</span><span class="n">cycle</span><span class="p">[</span><span class="mi">0</span><span class="p">]])],</span>
+            <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="p">)</span>
+        <span class="n">graph</span><span class="o">.</span><span class="n">remove_edge</span><span class="p">(</span><span class="n">weakest_edge</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">weakest_edge</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">break</span>  <span class="c1"># Re-check for new cycles after removing one edge</span>
+
+<span class="c1"># Step 3: Filter edges by weight threshold</span>
+<span class="n">weight_threshold</span> <span class="o">=</span> <span class="mf">1e-4</span>
+<span class="n">filtered_edges</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">u</span><span class="si">}</span><span class="s1"> -&gt; </span><span class="si">{</span><span class="n">v</span><span class="si">}</span><span class="s1"> [weight=&quot;</span><span class="si">{</span><span class="n">d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;weight&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="si">}</span><span class="s1">&quot;];&#39;</span>
+    <span class="k">for</span> <span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">graph</span><span class="o">.</span><span class="n">edges</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;weight&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">weight_threshold</span>
+<span class="p">]</span>
+
+<span class="c1"># Step 4: Collect nodes</span>
+<span class="n">nodes</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">filtered_edges</span><span class="p">:</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;-&gt;&quot;</span><span class="p">)</span>
+    <span class="n">nodes</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+    <span class="n">nodes</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+
+<span class="c1"># Step 5: Build DOT graph</span>
+<span class="n">dot_lines</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;digraph {&quot;</span><span class="p">]</span>
+<span class="n">dot_lines</span> <span class="o">+=</span> <span class="p">[</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2">;&quot;</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">]</span>
+<span class="n">dot_lines</span> <span class="o">+=</span> <span class="n">filtered_edges</span>
+<span class="n">dot_lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;}&quot;</span><span class="p">)</span>
+
+<span class="n">causal_graph</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dot_lines</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>100%|████████████████████████████████████████████████████████████████████████████| 210/210 [00:00&lt;00:00, 210567.50it/s]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[110]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">dowhy</span> <span class="kn">import</span> <span class="n">CausalModel</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Infant_Living&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Infant_Living&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">bool</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Infant_Living&quot;</span><span class="p">])</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">CausalModel</span><span class="p">(</span>
+    <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span>
+    <span class="n">graph</span><span class="o">=</span><span class="n">causal_graph</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">),</span>
+    <span class="n">treatment</span><span class="o">=</span><span class="s2">&quot;Admission_NICU&quot;</span><span class="p">,</span>
+    <span class="n">outcome</span><span class="o">=</span><span class="s2">&quot;Infant_Living&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># Visualize the model</span>
+<span class="n">model</span><span class="o">.</span><span class="n">view_model</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>ERROR:dowhy.causal_graph:Error: Pygraphviz cannot be loaded. No module named &#39;pygraphviz&#39;
+Trying pydot ...
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="output_38_1.png"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[111]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">identified_estimand</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">identify_effect</span><span class="p">(</span>
+    <span class="n">method_name</span> <span class="o">=</span> <span class="s2">&quot;exhaustive-search&quot;</span><span class="p">,</span> 
+    <span class="n">proceed_when_unidentifiable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">identified_estimand</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Estimand type: EstimandType.NONPARAMETRIC_ATE
+
+### Estimand : 1
+Estimand name: backdoor
+Estimand expression:
+        d                                                                                    
+─────────────────(E[Infant_Living|Gastroschisis,Hypospadias,Cleft_Lip,Limb_Reduction_Defect])
+d[Admission_NICU]                                                                            
+Estimand assumption 1, Unconfoundedness: If U→{Admission_NICU} and U→Infant_Living then P(Infant_Living|Admission_NICU,Gastroschisis,Hypospadias,Cleft_Lip,Limb_Reduction_Defect,U) = P(Infant_Living|Admission_NICU,Gastroschisis,Hypospadias,Cleft_Lip,Limb_Reduction_Defect)
+
+### Estimand : 2
+Estimand name: iv
+Estimand expression:
+ ⎡                                                                    -1⎤
+ ⎢       d                        ⎛       d                          ⎞  ⎥
+E⎢────────────────(Infant_Living)⋅⎜────────────────([Admission_NICU])⎟  ⎥
+ ⎣d[Down_Syndrome]                ⎝d[Down_Syndrome]                  ⎠  ⎦
+Estimand assumption 1, As-if-random: If U→→Infant_Living then ¬(U →→{Down_Syndrome})
+Estimand assumption 2, Exclusion: If we remove {Down_Syndrome}→{Admission_NICU}, then ¬({Down_Syndrome}→Infant_Living)
+
+### Estimand : 3
+Estimand name: frontdoor
+No such variable(s) found!
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[116]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">statsmodels.api</span> <span class="k">as</span> <span class="nn">sm</span>
+
+<span class="n">estimate</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">estimate_effect</span><span class="p">(</span>
+    <span class="n">identified_estimand</span><span class="p">,</span>
+    <span class="n">method_name</span><span class="o">=</span><span class="s2">&quot;backdoor.generalized_linear_model&quot;</span><span class="p">,</span>
+    <span class="n">method_params</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;glm_family&quot;</span><span class="p">:</span><span class="n">sm</span><span class="o">.</span><span class="n">families</span><span class="o">.</span><span class="n">Binomial</span><span class="p">()}</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">estimate</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>*** Causal Estimate ***
+
+## Identified estimand
+Estimand type: EstimandType.NONPARAMETRIC_ATE
+
+### Estimand : 1
+Estimand name: backdoor
+Estimand expression:
+        d                                                                                    
+─────────────────(E[Infant_Living|Gastroschisis,Hypospadias,Cleft_Lip,Limb_Reduction_Defect])
+d[Admission_NICU]                                                                            
+Estimand assumption 1, Unconfoundedness: If U→{Admission_NICU} and U→Infant_Living then P(Infant_Living|Admission_NICU,Gastroschisis,Hypospadias,Cleft_Lip,Limb_Reduction_Defect,U) = P(Infant_Living|Admission_NICU,Gastroschisis,Hypospadias,Cleft_Lip,Limb_Reduction_Defect)
+
+## Realized estimand
+b: Infant_Living~Sigmoid(Admission_NICU+Gastroschisis+Hypospadias+Cleft_Lip+Limb_Reduction_Defect)
+Target units: ate
+
+## Estimate
+Mean value: -0.3907265186319224
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[117]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Interpreting Results</span>
+<span class="n">interpretation</span> <span class="o">=</span> <span class="n">estimate</span><span class="o">.</span><span class="n">interpret</span><span class="p">(</span><span class="n">method_name</span><span class="o">=</span><span class="s2">&quot;textual_effect_interpreter&quot;</span><span class="p">)</span>
+<span class="n">interpretation</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Increasing the treatment variable(s) [Admission_NICU] from 0 to 1 causes an increase of -0.3907265186319224 in the expected value of the outcome [[&#39;Infant_Living&#39;]], over the data distribution/population represented by the dataset.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
